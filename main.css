@@ -2,7 +2,7 @@ body{
 	font-family: sans-serif;
 	margin-left: 5%;
 	color:#fff;
-	background-color: #333;
+	background-color: #ccc;
 	background-image: url(images/sunset.jpg);
 	background-size: cover;
 }
@@ -27,9 +27,8 @@ div {
 #content {
 	position: absolute;
 	text-align: left;
-	margin-top: 8.5em;
-	margin-right: 4em;
-	padding-left: 5em;
+	margin: 8.5em 8.5em 0 5em;
+	padding-left: 2em;
 
 }
 
@@ -61,7 +60,7 @@ input {
 	color: #D4CBAB;
 }
 #current:hover {
-	color: #F2F080;
+	color: #D4CBAB;
 }
 a {
 	text-decoration: none;
