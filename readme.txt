@@ -1,1 +1,1 @@
-You don't really have to readme
+You don't really have to read me
