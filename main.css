@@ -1,0 +1,22 @@
+body {
+	background-color: #444;
+	font-family: sans-serif;
+	color: #fff;
+	margin-left: 5%;
+}
+h3 {
+	margin-left: -3%;
+}
+
+li {
+	padding: 2px;
+}
+a {
+	font-size: 120%;
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFF00;
+}
