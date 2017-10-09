@@ -2,14 +2,37 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title> Övning 7.1</title>
+<title> Uppgift 7.1</title>
 </head>
 <body>
-<h3>Övningens instruktioner:</h3>
+
+<style>
+body {
+	background-color:#2E3040;
+	color:#FF8A0D;
+	}
+h3 {
+	font-family: arial;
+}
+a {
+	color:#888;
+	text-decoration: none;
+}
+hr {color:#FF8A0D;}
+</style>
+
+<h3 style="text-align:center;float:left;"><a href="ovningar.html">Tillbaka</a></h3>
+<h3 style="text-align:left;float:right;">Nästa uppgift: <a href="ovning2.html">HTML och CSS - Uppgift 7.2</a></h3>
+<hr style="clear:both;"/>
+
+<h3> Uppgift: HTML och CSS 7.1</h3>
+
 <p>Skapa en egen HTML-sida där du skriver upp vad vi gick igenom på lektionen 2/10. <br>Du ska använda alla HTML-element som
 <a href="https://docs.google.com/presentation/d/12nY82kf9rQ0SRkHeW9C88vEETVAXayGgjx2H5ROxkMg/edit#slide=id.g10d2c88493_0_38">
  finns i slides här.</a> Sidan ska läggas upp med GitHub Pages. 
 <br>Skicka länken till läraren via slack när du är klar. </p>
+
+<hr>
 
 <h1> Heading 1 <code>&lt;h1&gt;</code></h1> 
 <h2> Heading 2 <code>&lt;h2&gt;</code></h2> 
@@ -20,11 +43,41 @@
 
 <p>En paragraf. &lt;br&gt;<br>Här kan jag fylla i att jag tyvärr var sjuk vid introduktionen av HTML och kan därför inte återberätta vad som skedde på lektionen. <code>&lt;p&gt;</code></p> 
 
-<pre>Detta är också en typ av textstycke.    Flera mellanslag? <code>&lt;pre&gt;</code></pre>
+<pre>Detta är också en typ av textstycke.    Flera mellanslag! <code>&lt;pre&gt;</code></pre>
 
 <code> Detta är skrivet med taggen &lt;code&gt;</code>
 
 <p> Detta är några exempel på hur man kan betona text: <b>fet stil</b> <code>&lt;b&gt;</code>, <i>kursiv stil</i> <code>&lt;i&gt;</code> och <u>understruken stil</u> <code>&lt;u&gt;</code></p>
 
+<li> En lista </li>
+<li> med punkter!</li>
+<br>
+<p>En tabell</p>
+<table>
+	<tr>
+		<th>Namn</th>
+		<th>E-post</th>
+		<th>Nummer</th>
+	</tr>
+	<tr>
+		<td>Anton</td>
+		<td>elit@gmail.com</td> 
+		<td>+4671125666</td>
+  </tr>
+</table>
+
+<form>
+	<p style="font-color:gray">Skapa användare</p>
+	Namn:<br>
+	<input type="text" name="namn"><br>
+	Efternamn:<br>
+	<input type="text" name="efternamn"><br>
+	Lösenord:<br>
+	<input type="password" name="password"><br><br>
+	<input type="submit" value="Skapa">
+</form>
+
+
+<center><p>Impressive</p><img src="https://media.tenor.com/images/153e41ba057c2d918aa4e66c104d9d3e/tenor.gif"></img><img src="https://media.tenor.com/images/1cb969c00a224b34afc2422354eb97b2/tenor.gif"></img></center>
 </body>
 </html>
