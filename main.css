@@ -1,22 +1,73 @@
-body {
-	background-color: #444;
+body{
 	font-family: sans-serif;
-	color: #fff;
 	margin-left: 5%;
+	color:#fff;
+	background-color: #333;
+	background-image: url(images/sunset.jpg);
+	background-size: cover;
 }
-h3 {
-	margin-left: -3%;
+div {
+	position: relative;
+	float: left;
+	padding: 4px 16px 0px 16px;
+	text-align: center;
 }
 
+#menu {
+	position: fixed;
+	margin: 0px -30px;
+	height: 50px;
+	color: white;
+}
+#title {
+	position: absolute;
+	margin: 4em 0 0 0;
+	padding: 5px 6% 0 6%;
+}
+#content {
+	position: absolute;
+	text-align: left;
+	margin-top: 8.5em;
+	margin-right: 4em;
+	padding-left: 5em;
+
+}
+
+ul {
+	list-style: square;
+	color: darkgray;
+	margin-left: -20px;
+	font-size: 1em;
+}
 li {
-	padding: 2px;
+	padding-top: 15px;
+}
+
+form {
+		margin-top: 5px;
+}
+p.formClass {
+	padding: -5px;
+	margin-bottom: 2px;
+}
+textarea {
+	font-size: 1.2em;
+}
+input {
+	font-size: 1.2em;
+}
+
+#current {
+	color: #D4CBAB;
+}
+#current:hover {
+	color: #F2F080;
 }
 a {
-	font-size: 120%;
-	color: #eee;
 	text-decoration: none;
+	color:#fff;
 }
 
 a:hover {
-	color: #FFFF00;
+	color: #F2F080;
 }
