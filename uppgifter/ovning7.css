@@ -1,0 +1,36 @@
+p span {
+  color: red;
+  }
+.kategori .diagram {
+  background-color: blue;
+  }
+p, div:hover {
+  color:green;
+  }
+li + li	{
+  background-color: yellow;
+  }
+
+[class*="sub"] {
+
+  }
+
+  p > span {
+    background-color: black;
+    color: white;
+  }
+.diagram span {
+  font-size: 1,2em;
+}
+
+p.kategori {
+  font-family: sans-serif;
+}
+li:last-child	{
+  font-size: 2em
+}
+
+ul > li:nth-child(3).hello {
+  color:green;
+  background-color: red;
+}
