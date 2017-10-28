@@ -9,30 +9,69 @@ body{
 	background-repeat: no-repeat;
 }
 div {
-	position: relative;
-	float: left;
-	padding: 4px 16px 0px 16px;
+	float:left;
+	padding: 0px 16px 4px 16px;
 	text-align: center;
 }
 
-#menu {
-	position: absolute;
-	margin: 2% 0em 0em 5%;
-	height: 50px;
+.menu {
+	margin: 5% 20% 2% 20%;
+	min-height: 50px;
 	color: white;
 	font-size: 1.2em;
 }
+.content p {
+	margin-top: 0px;
+}
 
-#content {
-	position: absolute;
+.content {
+	clear:both;
 	text-align: left;
-	margin: 7em 10% 2em 8%;
-	padding: 1em 2em 2em 2.2em;
+	margin: 0px 20%;
+	padding: 5px 45px 20px 45px;
+	width: 45%;
+	font-size: 13pt;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background-color: rgba(160,160,160,0.2);
+}
+.footer {
+	position: relative;
+	text-align: center;
+	font-size: 9pt;
+	margin: 0% 20%;
+	padding: 2px 45px 2px 45px;
+	width: 45%;
+	clear:both;
 	text-overflow: ellipsis;
-	max-width: 41.5em;
-	font-size: 1.1em;
-	border-radius: 6px;
-	background-color: rgba(160,160,160,0.1);
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	background-color: rgba(160,160,160,0.12);
+}
+
+.portfoliocontainer {
+	border-radius: 5px;
+	padding: inherit;
+	width: 30%;
+	margin-left: 2.5%;
+	min-height: 210px;
+}
+.portfoliocontainerwrapper {
+	margin: 10px 10px 0px 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.portfoliocontainer img {
+	width: 75%;
+	padding: 9% 12.5% 5px 12.5%;
+	margin: 0px;
+}
+
+.portfoliocontainer p {
+
+	margin-left: 12.5%;
+
 }
 
 ul {
@@ -59,22 +98,22 @@ input {
 	font-size: 1.2em;
 }
 
-#current, #content em {
+.current, .content em:hover{
 	color: #D4CBAB;
 }
-#current:hover {
+.current:hover {
 	color: #D4CBAB;
 }
 
-#content h1:hover {
+.content h1:hover {
 	color:#D4CBAB;
 }
-#content div {
+.content div {
 	position: relative;
 	float: left;
 	text-align: left;
 }
-#content #text {
+.content .text {
 	max-width: 61%;
 	font-size: 0.8em;
 	padding-top: 0em;
@@ -90,20 +129,16 @@ input {
 	height: 1em;
 	/*background-color: rgba(117,117,117,0.1);*/
 }
-#content #picture {
-	max-width: 30%;
+.content .picture {
 	padding: 2% 2% 1.5% 2.5%;
 	/*background-color: rgba(160,160,160,0.2);*/
 }
 
 
-#content img {
-	border-radius: 4px;
-}
-
-#content #link {
+.content .link {
 	font-size: 1.2em;
 }
+
 
 
 a {
