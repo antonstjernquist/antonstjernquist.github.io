@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head> <!-- This is a comment section! -->
 <body>
-	<div id="menu">
+	<div class="menu">
 		<div><a href="index.html">
 			<p><i class="fa fa-home fa-lg"></i> Hem</p></a>
 		</div>
@@ -20,7 +20,7 @@
 		<div><a href="portfolio.html">
       <p><i class="fa fa-briefcase"></i> Portfolio</p></a>
     </div>
-    <div><a href="#" id="current">
+    <div><a href="#" class="current">
       <p><i class="fa fa-envelope-open-o"></i> Kontakt</p></a>
     </div>
 		<div><a href="https://github.com/antonstjernquist" target="_blank">
@@ -31,13 +31,13 @@
 		</div>
 	</div>
 
-	<div id="title">
+	<div class="title">
 	   <h1>Kontakta mig</h1>
 	</div>
-	<div id="content">
+	<div class="content">
 		<p>Använd formuläret nedan för att skicka ett meddelande!</p>
 
-      <form id="messageForm" class="formClass">
+      <form class="messageForm" class="formClass">
           <p class="formClass">Ämne:</p>
           <input type="text" name="subject"><br>
           <p class="formClass">Fullständigt namn:</p>
@@ -49,8 +49,9 @@
             maxlength="2000" placeholder="Skriv ditt meddelande här!"></textarea><br>
           <input type="submit" name="submit" value="Skicka">
       </form>
-
 	</div>
-
+	<div class="footer">
+		<p>&copy; 2017 - Anton Stjernquist GitHub page - <a href="mailto:antonstjernquist@gmail.com" alt="antonstjernquist@gmail.com">Kontakt</a></p>
+	</div>
 </body>
 </html>
