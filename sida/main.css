@@ -1,0 +1,42 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #2a2d37;
+  background-color: #f0f0e6;
+}
+
+.nameHolder {
+  margin: 25vh auto calc(2% + 15px);
+  flex-wrap: wrap;
+}
+.imageHolder {
+  margin: auto;
+}
+.nameHolder, .imageHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+h1 {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  display: inline-block;
+  font-weight: 300;
+  font-size: calc(1em + 3vw);
+  margin: -1px 5px;
+}
+h1:first-child {
+  font-weight: 600;
+}
+
+img {
+  cursor: pointer;
+  height: 100%;
+  width: 45px;
+}
+
+a:last-child > img {
+  margin-top: 1px;
+}
